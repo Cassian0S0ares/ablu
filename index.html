@@ -1,0 +1,94 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Cassiano</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+    <header>
+    <img src="src/imgs/perfil.jpg" alt="Sua Foto">
+    <h1>Cassiano Soares</h1>
+    <p>Desenvolvedor Full Stack apaixonado por tecnologia e criação de soluções modernas.</p>
+    <button onclick="scrollToProjects()">Ver Projetos ↓</button>
+    <button onclick="scrollToContact()">Contato</button>
+    </header>
+
+<section id="projects">
+
+  <div class="project">
+    <div class="gallery">
+  <button class="prev">&#10094;</button>
+
+  <div class="gallery-track">
+    <img src="src/imgs/DG.png">
+    <img src="src/imgs/DGCB.png">
+    <img src="src/imgs/DGCUB.png">
+    <img src="src/imgs/DGLB.png">
+    <img src="src/imgs/DGP.png">
+    <img src="src/imgs/DGCP.png">
+    <img src="src/imgs/DGCUP.png">
+    <img src="src/imgs/DGLP.png">
+
+  </div>
+
+  <button class="next">&#10095;</button>
+</div>
+    <div class="content">
+      <h2>DG Consultoria</h2>
+      <p>
+        Sistema web desenvolvido para a empresa DG Consultoria, especializada em segurança do trabalho.O projeto é uma plataforma de venda de cursos online, onde os clientes podem adquirir treinamentos relacionados à segurança do trabalho. O sistema inclui funcionalidades como catálogo de cursos, processamento de pagamentos, onde a empresa recebe o email do pagante para enviar o curso, e uma área administrativa para gerenciar os cursos e os clientes. O objetivo do projeto é fornecer uma solução eficiente e fácil de usar para a venda de cursos online, atendendo às necessidades da empresa e proporcionando uma experiência positiva para os clientes.
+      </p>
+      <a href="https://dgconsultoriasst.com/" target="_blank">Acessar Projeto</a>
+    </div>
+  </div>
+
+  <div class="project reverse">
+   <div class="gallery">
+  <button class="prev">&#10094;</button>
+
+  <div class="gallery-track">
+    <img src="src/imgs/TCC.png">
+    <img src="src/imgs/tcc1.png">
+    <img src="src/imgs/tcc2.png">
+    <img src="src/imgs/tcc3.png">
+  </div>
+
+  <button class="next">&#10095;</button>
+</div>
+    <div class="content">
+      <h2>AutoAbout</h2>
+      <p>
+        Plataforma de criação de chatbots com interface visual baseada em blocos.
+      </p>
+      <p>
+        Permite que usuários sem conhecimento em programação criem fluxos de conversa
+        de forma simples e intuitiva, utilizando IA para gerar respostas automáticas que você pode personalizar. Podendo criar diversos tipos de chatbots, desde atendimento ao cliente até assistentes pessoais, tudo isso com uma interface amigável e fácil de usar.
+      </p>
+    </div>
+  </div>
+
+</section>
+    
+<footer id="contact">
+  <h2>Contato</h2>
+  <p>Vamos trabalhar juntos? Entre em contato comigo </p>
+
+  <div class="contact-links">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cassiano.soares156@gmail.com" target="_blank">Email</a>
+    <a href="https://www.linkedin.com/in/cassiano-brandes-soares/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Cassian0S0ares" target="_blank">GitHub</a>
+    <a href="https://wa.me/5512991364115" target="_blank">WhatsApp</a>
+  </div>
+
+</footer>
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" id="lightbox-img">
+</div>
+    <script src="script.js"></script>
+    </body>
+    </html>
